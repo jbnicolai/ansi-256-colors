@@ -1,6 +1,6 @@
 {
   "name": "ansi-8-bit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "8-bit xterm color codes",
   "license": "MIT",
   "repository": "jbnicolai/ansi-8-bit",
