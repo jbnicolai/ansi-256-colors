@@ -13,7 +13,6 @@ You probably want the higher-level [chalk](https://github.com/sindresorhus/chalk
 $ npm install --save ansi-8-bit
 ```
 
-
 ## Usage
 
 ```js
