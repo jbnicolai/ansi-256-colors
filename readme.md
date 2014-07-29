@@ -32,7 +32,6 @@ The module exposes a `fg` and `bg` object, and a `reset` code. Both the foregrou
 - `grayscale` containing 24 tints ranging from white to black
 - `getRgb(int, int, int)` return a colour in the rbg ranges 0 to 6
 
-
 ## License
 
 MIT © [Jbnicolai](http://jbnicolai.com)
