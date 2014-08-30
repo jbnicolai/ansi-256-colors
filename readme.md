@@ -1,4 +1,4 @@
-# ansi-8-bit [![Build Status](https://travis-ci.org/jbnicolai/ansi-8-bit.svg?branch=master)](https://travis-ci.org/jbnicolai/ansi-8-bit)
+# ansi-256-colors [![Build Status](https://travis-ci.org/jbnicolai/ansi-256-colors.svg?branch=master)](https://travis-ci.org/jbnicolai/ansi-256-colors)
 
 > [256 ansi color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors) for styling terminal output
 
@@ -10,15 +10,15 @@ You probably want the higher-level [chalk](https://github.com/sindresorhus/chalk
 ## Install
 
 ```sh
-$ npm install --save ansi-8-bit
+$ npm install --save ansi-256-colors
 ```
 
 ## Usage
 
 ```js
-var a8b = require('ansi-8-bit'), fg = a8b.fg, bg = a8b.bg;
+var colors = require('ansi-256-colors');
 
-console.log(fg.getRgb(2,3,4) + bg.getRgb(4,4,4) + 'Hello world!' + a8b.reset);
+console.log(colors.fg.getRgb(2,3,4) + colors.bg.getRgb(4,4,4) + 'Hello world!' + colors.reset);
 ```
 
 ## API
