@@ -4,8 +4,8 @@
   /*
    * Wrap the numbers 0 to 256 in their foreground or background terminal escape code
    */
-  var fgcodes = Array.apply(null, new Array(256)).map(function (_, i) { return '\x1b[;38;5;' + i + 'm'; });
-  var bgcodes = Array.apply(null, new Array(256)).map(function (_, i) { return '\x1b[;48;5;' + i + 'm'; });
+  var fgcodes = Array.apply(null, new Array(256)).map(function (_, i) { return '\x1b[38;5;' + i + 'm'; });
+  var bgcodes = Array.apply(null, new Array(256)).map(function (_, i) { return '\x1b[48;5;' + i + 'm'; });
 
   /*
    * Slice the foreground and background codes in their respective sections
