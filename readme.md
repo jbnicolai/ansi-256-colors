@@ -25,7 +25,7 @@ console.log(colors.fg.getRgb(2,3,4) + colors.bg.getRgb(4,4,4) + 'Hello world!' +
 
 The module exposes a `fg` and `bg` object, and a `reset` code. Both the foreground and background objects contain:
 
-#### colors.\<fg|bg\>.getRgb(\<red\>[0..6], \<green\>[0..6], \<blue\>[0..6])
+#### colors.\<fg|bg\>.getRgb(\<red\>[0..5], \<green\>[0..5], \<blue\>[0..5])
 
 Returns the color code for the given red-green-blue value.
 
