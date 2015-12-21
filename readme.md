@@ -38,13 +38,13 @@ Returns the color code for the given red-green-blue value.
 
 All 256 color codes.
 
-#### colors.\<fg|bg\>.standard[0..7]
+#### colors.\<fg|bg\>.standard[0..5]
 
-The 8 base color codes, guaranteed to work on every system.
+The 6 base color codes, guaranteed to work on every system.
 
-#### colors.\<fg|bg\>.bright[0..7]
+#### colors.\<fg|bg\>.bright[0..5]
 
-The 8 base bright/bold color codes, guaranteed to work on every system.
+The 6 base bright/bold color codes, guaranteed to work on every system.
 
 #### colors.\<fg|bg\>.grayscale[0..23]
 
