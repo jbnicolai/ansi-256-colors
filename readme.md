@@ -2,7 +2,7 @@
 
 [![npm version][npm-badge]][npm-url]
 [![Build Status][travis-badge]][travis-url]
-[![Coverage Status][coveralls-badge]][coveralls-status]
+[![Coverage Status][coveralls-badge]][coveralls-url]
 [![Dependency Status][david-badge]][david-url]
 
 > [256 ansi color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors) for styling terminal output
@@ -66,7 +66,7 @@ MIT © [Joshua Boy Nicolai Appelman](http://jbnicolai.com)
 [npm-url]: https://badge.fury.io/js/ansi-256-colors
 [travis-badge]: https://api.travis-ci.org/jbnicolai/ansi-256-colors.svg
 [travis-url]: https://travis-ci.org/jbnicolai/ansi-256-colors
-[coveralls-badge]:https://coveralls.io/repos/jbnicolai/ansi-256-colors/badge.svg?branch=master&service=github
+[coveralls-badge]: https://coveralls.io/repos/jbnicolai/ansi-256-colors/badge.svg?branch=master&service=github
 [coveralls-url]: https://coveralls.io/github/jbnicolai/ansi-256-colors?branch=master
 [david-badge]: https://david-dm.org/jbnicolai/ansi-256-colors.svg
 [david-url]: https://david-dm.org/jbnicolai/ansi-256-colors
