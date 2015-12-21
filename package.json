@@ -9,7 +9,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha ; cat ./coverage/lcov.info | coveralls"
   },
   "files": [
     "index.js"
@@ -36,6 +37,8 @@
     "text"
   ],
   "devDependencies": {
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
     "mocha": "*"
   }
 }
